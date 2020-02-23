@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+}
+
+#wrapper {
+    background-color: #DFA596;
+}
+
+#header {
+    background-color: #DFA596;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.4);
+    border-radius: 0px 0px 10px 10px;
+    opacity: 95%;
+}
+
+#menu-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 9vh;
+    z-index: 102;
+}
+
+#menu-expand {
+    height: 91vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+#menu-expand ul {
+    
+}
+
+#menu-expand li {
+    list-style: none;
+    text-align: center;
+}
+
+#menu-expand a {
+    font-weight: 700;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    line-height: 3em;
+    text-decoration: none;
+}
+
+#logo-container {
+    z-index: 111;
+}
+
+#logo-button {
+    width: 100%;
+}
+
+#logo-image {
+    width: 60%;
+}
+
+#burger-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#burger {
+    padding-right: 34px;
+}
+
+.burger-line {
+    background-color: #9F6758;
+    height: 5px;
+    width: 35px;
+    margin: 5px;
+    border-radius: 3px;
+}
+
+
+/* --------Main-------- */
+
+#canvas {
+    height: 1500px;
+    background-color: white;
+    width: 94%;
+    margin: 0 auto;
+    margin-top: 8vh;
+}
+
+#banner-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+#banner-video {
+    width: 90%;
+    border-style: solid;
+    border-color: #DFA596;
+    border-width: 10px;
+}
+
+#video-element {}
+
+#top-flower-container {
+    width: 40%;
+    position: absolute;
+    right: 0px;
+    top: -90px;
+    z-index: 1;
+}
+
+#left-flower-container {
+    width: 19%;
+    position: absolute;
+    left: 0px;
+    top: 190px;
+    z-index: 2;
+}
+
+#right-flower-container {
+    width: 25%;
+    position: absolute;
+    right: 0px;
+    top: 340px;
+    z-index: 3;
+}
+
+#flower {
+    width: 100%;
+}
+
+.section-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section-container-left {
+    width: 39,5%;
+    padding-left: 60px;
+}
+
+.section-container-middle {
+    display: flex;
+    justify-content: center;
+    width: 15%;
+}
+
+.section-container-right {
+    width: 39,5%;
+    padding-right: 60px;
+}
+
+#happy {
+    padding-top: 400px;
+    width: 100%;
+}
+
+#makeup {
+    width: 100%;
+}
+
+.heading {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-size: 3em;
+    color: #DFA596;
+    letter-spacing: 0.4em;
+    padding-top: 30px;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 1.8em;
+    padding-top: 100px;
+}
+
+.text-content {
+    font-weight: 300;
+    font-size: 1.4em;
+}
+
+
+/* --------Slut Main-------- */

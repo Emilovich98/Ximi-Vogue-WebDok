@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="wrapper">
+        <header id="header">
+            <div id="menu-top">
+                <div id="logo-container">
+                    <a id="logo-button"><img id="logo-image" src="images/logo-flower-real.png"></a>
+                </div>
+                <div id="burger-container">
+                    <div id="burger">
+                        <div class="burger-line"></div>
+                        <div class="burger-line"></div>
+                        <div class="burger-line"></div>
+                    </div>
+                </div>
+            </div>
+            <div id="menu-expand">
+                <ul>
+                    <li><a>BEAUTY</a></li>
+                    <li><a>LIFESTYLE</a></li>
+                    <li><a>HOME DECOR</a></li>
+                    <li><a>ABOUT</a></li>
+                </ul>
+            </div>
+        </header>
+        <main id="canvas">
+            <div id="banner-container">
+                <video autoplay muted loop id="banner-video">
+                    <source id="video-element" src="video/wide-banner-video.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div id="top-flower-container" class="rellax" data-rellax-speed="-4">
+                <img id="flower" src="images/top-flower.png">
+            </div>
+            <div id="left-flower-container" class="rellax" data-rellax-speed="2">
+                <img id="flower" src="images/flower-left.png">
+            </div>
+            <div id="right-flower-container" class="rellax" data-rellax-speed="5">
+                <img id="flower" src="images/flower-right.png">
+            </div>
+            <section class="section-container">
+                <div class="section-container-left rellax">
+                    <img id="happy" src="images/happy.jpg">
+                </div>
+                <div class="section-container-middle">
+                    <h2 class="heading">BEAUTY</h2>
+                </div>
+                <div class="section-container-right rellax"  >
+                    <img id="makeup" src="images/makeup.jpg">
+                    <div class="text-on-scroll" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1000">
+                    <h3>Velkommen til Ximi Vogue</h3>
+                    <p class="text-content">-et univers af koreanske beautyprodukter<br><br>Makeup, hudpleje, parfumer og meget mere!</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+
+        </footer>
+    </div>
+    <script src="js/rellax.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
+</body>
+
+</html>
