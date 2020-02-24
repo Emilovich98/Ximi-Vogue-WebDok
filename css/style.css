@@ -85,12 +85,18 @@
 
 /* --------Main-------- */
 
-#canvas {
-    height: 1500px;
+main {
+}
+
+.canvas-intro {
     background-color: white;
     width: 94%;
     margin: 0 auto;
     margin-top: 8vh;
+    padding-bottom: 210px;
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.4);
+    margin-bottom: 10px;
 }
 
 #banner-container {
@@ -107,8 +113,6 @@
     border-color: #DFA596;
     border-width: 10px;
 }
-
-#video-element {}
 
 #top-flower-container {
     width: 40%;
@@ -138,36 +142,73 @@
     width: 100%;
 }
 
-.section-container {
+/* -----------------Standard assets--------------------- */
+
+/* ------Between canvases-------- */
+.between-section-text {
+    font-weight: 700;
+    color: #9F6758;
+    text-align: center;
+    font-size: 2.4em;
+    opacity: 41%;
+    line-height: 1em;
+    padding-top: 10px;
+}
+
+.ximi-big-font {
+    font-size: 1.3em;
+}
+/* ------ slut Between canvases-------- */
+
+.canvas-standard {
+    background-color: white;
+    width: 94%;
+    margin: 0 auto;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.4);
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+/* ------- Top flower ------ */
+.section-flower {
+    width: 12%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.section-flower img {
+    width: 100%;
+}
+/* ------- slut Top flower ------ */
+
+/* -------- 3 spalter --------- */
+.section-container-standard {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.section-container-left {
+.section-container-left-standard {
     width: 39,5%;
     padding-left: 60px;
+    background-color: brown;
 }
 
-.section-container-middle {
+.section-container-middle-standard {
     display: flex;
     justify-content: center;
     width: 15%;
+    background-color: aqua;
 }
 
-.section-container-right {
+.section-container-right-standard {
     width: 39,5%;
     padding-right: 60px;
+    background-color: blueviolet;
 }
 
-#happy {
-    padding-top: 400px;
-    width: 100%;
-}
-
-#makeup {
-    width: 100%;
-}
+/* -------- slut 3 spalter --------- */
 
 .heading {
     writing-mode: vertical-rl;
@@ -175,19 +216,19 @@
     font-size: 3em;
     color: #DFA596;
     letter-spacing: 0.4em;
-    padding-top: 30px;
 }
 
-h3 {
+.h3-standard {
     font-weight: 400;
     font-size: 1.8em;
-    padding-top: 100px;
 }
 
-.text-content {
+.text-content-standard {
     font-weight: 300;
     font-size: 1.4em;
 }
 
+
+/* -----------------Slut Standard assets--------------------- */
 
 /* --------Slut Main-------- */

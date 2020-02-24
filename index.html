@@ -34,35 +34,66 @@
                 </ul>
             </div>
         </header>
-        <main id="canvas">
-            <div id="banner-container">
-                <video autoplay muted loop id="banner-video">
-                    <source id="video-element" src="video/wide-banner-video.mp4" type="video/mp4">
-                </video>
-            </div>
-            <div id="top-flower-container" class="rellax" data-rellax-speed="-4">
-                <img id="flower" src="images/top-flower.png">
-            </div>
-            <div id="left-flower-container" class="rellax" data-rellax-speed="2">
-                <img id="flower" src="images/flower-left.png">
-            </div>
-            <div id="right-flower-container" class="rellax" data-rellax-speed="5">
-                <img id="flower" src="images/flower-right.png">
-            </div>
-            <section class="section-container">
-                <div class="section-container-left rellax">
-                    <img id="happy" src="images/happy.jpg">
+        <main>
+            <section class="canvas-intro">
+                <div id="banner-container">
+                    <video autoplay muted loop id="banner-video">
+                        <source id="video-element" src="video/wide-banner-video.mp4" type="video/mp4">
+                    </video>
                 </div>
-                <div class="section-container-middle">
-                    <h2 class="heading">BEAUTY</h2>
+                <div id="top-flower-container" class="rellax" data-rellax-speed="-4">
+                    <img id="flower" src="images/top-flower.png">
                 </div>
-                <div class="section-container-right rellax"  >
-                    <img id="makeup" src="images/makeup.jpg">
-                    <div class="text-on-scroll" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1000">
-                    <h3>Velkommen til Ximi Vogue</h3>
-                    <p class="text-content">-et univers af koreanske beautyprodukter<br><br>Makeup, hudpleje, parfumer og meget mere!</p>
+                <div id="left-flower-container" class="rellax" data-rellax-speed="2">
+                    <img id="flower" src="images/flower-left.png">
+                </div>
+                <div id="right-flower-container" class="rellax" data-rellax-speed="5">
+                    <img id="flower" src="images/flower-right.png">
+                </div>
+                <section class="section-container-standard">
+                    <div class="section-container-left-standard">
+                        <h3 class="h3-standard">Velkommen til Ximi Vogue</h3>
+                        <p class="text-content-standard">- et univers af skønhedsprodukter</p>
                     </div>
-                </div>
+                    <div class="section-container-middle-standard">
+                        <h2 class="heading rellax" data-rellax-speed="-1.5">BEAUTY</h2>
+                    </div>
+                    <div class="section-container-right-standard">
+                        <div class="text-on-scroll" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1000">
+                            <p class="text-content-standard">Find hos din nærmeste Ximi Vogue Store et stort udvalg af hårprodukter, makeup, parfumer og hudpleje.<br><br>Vi har produkter, der er umulig at leve uden, og som er et must på badeværelseshylden og ikke mindst makeup-pungen!</p>
+                        </div>
+                    </div>
+                </section>
+            </section>
+            <h4 class="between-section-text"><span class="ximi-big-font">XIMI</span><br>VOGUE</h4>
+            <section class="canvas-standard">
+               <div class="section-flower">
+                   <img src="images/flower-section.png" alt="section-flower">
+               </div>
+                <section class="section-container-standard">
+                    <div class="section-container-left-standard">
+                       <div class="text-on-scroll-standard" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1000">
+                            <h3 class="h3-standard">Forkælelse, velvære og hygge i hverdagen?</h3>
+                            <p class="text-content-standard">- Hos Ximi Vogue tilbyder vi en række livsstilsprodukter til dig og dit hjem.<br><br>Find alt fra elektronik, bøger, boligtilbehør og accessories.</p>
+                        </div> 
+                    </div>
+                    <div class="section-container-middle-standard">
+                        <h2 class="heading">BEAUTY</h2>
+                    </div>
+                    <div class="section-container-right-standard">
+                        
+                    </div>
+                </section>
+            </section>
+            <h4 class="between-section-text"><span class="ximi-big-font">XIMI</span><br>VOGUE</h4>
+            <section class="canvas-standard">
+               <div class="section-flower">
+                   <img src="images/flower-section.png" alt="section-flower">
+               </div>
+                <h6>HER MARCUS!</h6>
+            </section>
+            <section class="canvas-standard">
+                <h4>HEj</h4>
             </section>
         </main>
         <footer>
@@ -72,7 +103,9 @@
     <script src="js/rellax.min.js"></script>
     <script src="js/script.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>AOS.init();</script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
