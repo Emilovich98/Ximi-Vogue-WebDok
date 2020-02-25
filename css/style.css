@@ -255,7 +255,12 @@ main {}
 .text-content-standard {
     font-weight: 300;
     font-size: 1.4em;
-    line-height: 1.6em;
+    line-height: 2em;
+    padding-bottom: 30px;
+}
+
+#specifik-p {
+    padding-bottom: 20px;
 }
 
 #white-dot {
@@ -275,6 +280,7 @@ main {}
     padding-bottom: 40px;
 }
 
+
 #heading-1 {
     padding-top: 150px;
 }
@@ -285,10 +291,9 @@ main {}
 
 /* --------- slut image elements------------ */
 
-
-
-
 /* -----------------Slut Standard assets--------------------- */
+
+
 
 /* -----video section------ */
 
@@ -299,6 +304,34 @@ main {}
     align-items: center;
     padding-top: 30px;
     padding-bottom: 30px;
+}
+
+#weed-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+
+.sound-button {
+    background-color: white;
+    height: 30px;
+    width: 40px;
+    border-radius: 3px;
+    padding: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
+    
+}
+
+.sound-button img {
+    height: 100%;
+}
+
+.muted-video {
+    
 }
 
 /* -----Slut video section------ */
@@ -326,39 +359,79 @@ main {}
     padding-bottom: 30px;
 }
 
+#foelg-insta {
+    height: 60px;
+}
+
 /* ----------slut Instafeed----------- */
+
+/* ------------- About page --------------*/
+
+#devider {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#ansatte-container {
+    width: 50vw;
+}
+
+#ansatte {
+    width: 100%;
+}
+
+#text-box {
+    width: 74vw;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+#kort-img {
+    width: 100%;
+    padding-bottom: 36px;
+    padding-top: 36px;
+}
+
+/* ------------- slut About page --------------*/
 
 /* --------Slut Main-------- */
 
 
-.overskrift-container {
-    justify-content: space-around;
-    display: flex;
-    margin: 20px;
+footer {
+    padding-bottom: 1px;
 }
-
-.overskrift-container > div {
-    text-align: center;
-    font-family: 'Roboto';
-    font-weight: 600;
-    color: white;
-    font-size: 1.5em;
-    padding-left: 20px;
-}
-
 
 .footer-container {
     justify-content: space-around;
     background-color: #C58B7D;
     display: flex;
+    align-items: center;
     margin: 20px;
 }
 
-.footer-container > div {
+.footer-container h5 {
     text-align: center;
     font-family: 'Roboto';
     color: white;
     margin: 20px;
     padding-right: 20px;
     font-size: 1.4em;
+    font-weight: 500;
+}
+
+.footer-container h6 {
+    text-align: center;
+    font-family: 'Roboto';
+    color: white;
+    margin: 20px;
+    padding-right: 20px;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.footer-line {
+    width: 2px;
+    height: 70px;
+    background-color: white;
 }

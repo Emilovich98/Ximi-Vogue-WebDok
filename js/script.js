@@ -57,6 +57,18 @@ let toggleLink = function() {
     } 
 }
 
+/* ----------- video mute --------------- */
+
+let vid = document.querySelector(".muted-video");
+
+function enableMute() { 
+  vid.muted = true;
+} 
+
+function disableMute() { 
+  vid.muted = false;
+} 
+
 
 
 
