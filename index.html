@@ -18,7 +18,7 @@
                     <a id="logo-button"><img id="logo-image" src="images/logo-flower-real.png"></a>
                 </div>
                 <div id="burger-container">
-                    <div id="burger">
+                    <div id="burger" onclick="toggleNav()">
                         <div class="burger-line"></div>
                         <div class="burger-line"></div>
                         <div class="burger-line"></div>
@@ -27,20 +27,40 @@
             </div>
             <div id="menu-expand">
                 <ul>
-                    <li><a>BEAUTY</a></li>
-                    <li><a>LIFESTYLE</a></li>
-                    <li><a>HOME DECOR</a></li>
-                    <li><a>ABOUT</a></li>
+                    <li><a href="#home" onclick="toggleLink()">HOME</a></li>
+                    <li><a href="#beauty" onclick="toggleLink()">BEAUTY</a></li>
+                    <li><a href="#lifestyle" onclick="toggleLink()">LIFESTYLE</a></li>
+                    <li><a href="#homedecor" onclick="toggleLink()">HOME DECOR</a></li>
+                    <li><a href="#follow" onclick="toggleLink()">FOLLOW</a></li>
+                    <li><a href="#about" onclick="toggleLink()">ABOUT</a></li>
                 </ul>
             </div>
         </header>
         <main>
+            <div id="home"></div>
             <section class="canvas-intro">
                 <div id="banner-container">
                     <video autoplay muted loop id="banner-video">
                         <source id="video-element" src="video/wide-banner-video.mp4" type="video/mp4">
                     </video>
                 </div>
+                <section id="some-icons">
+                    <div class="facebook-icon">
+                        <a href="https://www.facebook.com/XimivogueOfficial/"><img id="facebook" src="svg/facebook-icon.svg" alt="facebook-icon"></a>
+                    </div>
+
+                    <div class="twitter-icon">
+                        <a href="https://twitter.com/XIMIVOGUE_"><img id="twitter" src="svg/twitter-icon.svg" alt="twitter-icon"></a>
+                    </div>
+
+                    <div class="instagram-icon">
+                        <a href="https://www.instagram.com/projekttilskole/"><img id="instagram" src="svg/insta-icon.svg" alt="instagram-icon"></a>
+                    </div>
+
+                    <div class="youtube-icon">
+                        <a href="https://www.youtube.com/channel/UCJ2il2VxbAOWHUECR3mIBGQ"><img id="youtube" src="svg/youtube-icon.svg" alt="youtube-icon"></a>
+                    </div>
+                </section>
                 <div id="top-flower-container" class="rellax" data-rellax-speed="-4">
                     <img id="flower" src="images/top-flower.png">
                 </div>
@@ -50,54 +70,129 @@
                 <div id="right-flower-container" class="rellax" data-rellax-speed="5">
                     <img id="flower" src="images/flower-right.png">
                 </div>
+            </section>
+            <div id="beauty"></div>
+            <h4 class="between-section-text"><span class="ximi-big-font">XIMI</span><br>VOGUE</h4>
+            <section class="canvas-standard">
+                <div class="section-flower">
+                    <img src="images/flower-section.png" alt="section-flower">
+                </div>
                 <section class="section-container-standard">
                     <div class="section-container-left-standard">
-                        <h3 class="h3-standard">Velkommen til Ximi Vogue</h3>
-                        <p class="text-content-standard">- et univers af skønhedsprodukter</p>
+                        <div data-aos="fade-up" data-aos="fade-up" data-aos-offset="0" data-aos-duration="1000">
+                            <h3 class="h3-standard">Velkommen til Ximi Vogue</h3>
+                            <p class="text-content-standard">- et univers af skønhedsprodukter</p>
+                        </div>
+                        <img id="happy-img" src="images/happy.jpg" alt="happy-image">
                     </div>
                     <div class="section-container-middle-standard">
-                        <h2 class="heading rellax" data-rellax-speed="-1.5">BEAUTY</h2>
+                        <h2 id="heading-1" class="heading rellax" data-rellax-speed="2">BEAUTY</h2>
                     </div>
                     <div class="section-container-right-standard">
-                        <div class="text-on-scroll" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1000">
-                            <p class="text-content-standard">Find hos din nærmeste Ximi Vogue Store et stort udvalg af hårprodukter, makeup, parfumer og hudpleje.<br><br>Vi har produkter, der er umulig at leve uden, og som er et must på badeværelseshylden og ikke mindst makeup-pungen!</p>
+                        <img id="makeup-img" src="images/makeup.jpg" alt="makeup-image">
+                        <p class="text-content-standard" data-aos="fade-up" data-aos="fade-up" data-aos-duration="1000">Find hos din nærmeste Ximi Vogue Store et stort udvalg af hårprodukter, makeup, parfumer og hudpleje.<br><br>Vi har produkter, der er umulig at leve uden, og som er et must på badeværelseshylden og ikke mindst makeup-pungen!</p>
+                    </div>
+                </section>
+            </section>
+            <div id="lifestyle"></div>
+            <h4 class="between-section-text"><span class="ximi-big-font">XIMI</span><br>VOGUE</h4>
+            <section class="canvas-standard">
+                <div class="section-flower">
+                    <img src="images/flower-section.png" alt="section-flower">
+                </div>
+                <section class="section-container-standard">
+                    <div class="section-container-left-standard">
+                        <div data-aos="fade-up" data-aos="fade-up" data-aos-offset="0" data-aos-duration="1000">
+                            <h3 class="h3-standard">Forkælelse, velvære og hygge<br>i hverdagen</h3>
+                            <p class="text-content-standard">- Hos Ximi Vogue tilbyder vi en række livsstilsprodukter til dig og dit hjem.</p>
+                        </div>
+                        <img id="happy-img" src="images/key-hanger.jpg" alt="key-hanger-image">
+                    </div>
+                    <div class="section-container-middle-standard">
+                        <h2 id="heading-1" class="heading rellax" data-rellax-speed="1">LIFESTYLE</h2>
+                    </div>
+                    <div class="section-container-right-standard">
+                        <img id="makeup-img" src="images/shelf.jpg" alt="shelf-image">
+                        <p class="text-content-standard" data-aos="fade-up" data-aos="fade-up" data-aos-duration="1000">Find alt fra elektronik, bøger, boligtilbehør og accessories. Her er noget til en hver smag samt livsstil.</p>
+                    </div>
+                </section>
+            </section>
+            <h4 class="between-section-text"><span class="ximi-big-font">XIMI</span><br>VOGUE</h4>
+            <section class="canvas-standard">
+                <div id="video-container-2">
+                    <video autoplay muted loop id="banner-video">
+                        <source id="video-element" src="video/wide-buying-shoes.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </section>
+            <div id="homedecor"></div>
+            <h4 class="between-section-text"><span class="ximi-big-font">XIMI</span><br>VOGUE</h4>
+            <section class="canvas-standard">
+                <div class="section-flower">
+                    <img src="images/flower-section.png" alt="section-flower">
+                </div>
+                <section class="section-container-standard">
+                    <div class="section-container-left-standard">
+                        <div data-aos="fade-up" data-aos="fade-up" data-aos-offset="0" data-aos-duration="1000">
+                            <h3 class="h3-standard">Find dekorationer til alle værelser i hjemmet</h3>
+                        </div>
+                        <img id="happy-img" src="images/pink-image.jpg" alt="pink-image">
+                    </div>
+                    <div class="section-container-middle-standard">
+                        <h2 id="heading-3" class="heading">HOME<span id="white-dot">.</span>DECOR</h2>
+                    </div>
+                    <div class="section-container-right-standard">
+                        <img id="makeup-img" src="images/glass.jpg" alt="glass">
+                        <p class="text-content-standard" data-aos="fade-up" data-aos="fade-up" data-aos-duration="1000">Ximi Vogue tilbyder et stort udvalg af kvalitetsprodukter inde for interiør og dekorationer. Find inspiration og ideer til hjemmet i vores butik, og bliv inspireret af Ximi Vouges univers.</p>
+                    </div>
+                </section>
+            </section>
+            <div id="follow"></div>
+            <h4 class="between-section-text"><span class="ximi-big-font">XIMI</span><br>VOGUE</h4>
+            <section class="canvas-standard">
+                <div class="section-flower">
+                    <img src="images/flower-section.png" alt="section-flower">
+                </div>
+                <h1 id="follow-heading" data-aos="fade-right">FOLLOW</h1>
+                <section id="instagramcontent">
+                    <div id="instafeed">
+                        <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+                        <div class="elfsight-app-e45b79c3-b677-469d-a0df-0de62f56aadf"></div>
+                    </div>
+                    <div id=instaflex>
+                        <div id="foelg">
+                            <a href="https://www.instagram.com/ximivogueaarhus/"><img src="images/f%C3%B8lg-ikon.png" height="30" alt="følg på instagram button"></a>
                         </div>
                     </div>
                 </section>
             </section>
+            <div id="about"></div>
             <h4 class="between-section-text"><span class="ximi-big-font">XIMI</span><br>VOGUE</h4>
             <section class="canvas-standard">
-               <div class="section-flower">
-                   <img src="images/flower-section.png" alt="section-flower">
-               </div>
-                <section class="section-container-standard">
-                    <div class="section-container-left-standard">
-                       <div class="text-on-scroll-standard" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1000">
-                            <h3 class="h3-standard">Forkælelse, velvære og hygge i hverdagen?</h3>
-                            <p class="text-content-standard">- Hos Ximi Vogue tilbyder vi en række livsstilsprodukter til dig og dit hjem.<br><br>Find alt fra elektronik, bøger, boligtilbehør og accessories.</p>
-                        </div> 
-                    </div>
-                    <div class="section-container-middle-standard">
-                        <h2 class="heading">BEAUTY</h2>
-                    </div>
-                    <div class="section-container-right-standard">
-                        
+                <div class="section-flower">
+                    <img src="images/flower-section.png" alt="section-flower">
+                </div>
+                <section id="devider">
+                    <div id="ansatte-container">
+                        <h2 id="heading-3" class="heading">ABOUT</h2>
+                        <img src="images/ansatte.jpg" alt="ansatte">
                     </div>
                 </section>
             </section>
-            <h4 class="between-section-text"><span class="ximi-big-font">XIMI</span><br>VOGUE</h4>
-            <section class="canvas-standard">
-               <div class="section-flower">
-                   <img src="images/flower-section.png" alt="section-flower">
-               </div>
-                <h6>HER MARCUS!</h6>
-            </section>
-            <section class="canvas-standard">
-                <h4>HEj</h4>
-            </section>
         </main>
         <footer>
-
+            <div class="overskrift-container">
+                <div>CONTACT</div>
+                <div>INFORMATION</div>
+                <div>FRANCHISE</div>
+                <div>OPENING HOURS</div>
+            </div>
+            <div class="footer-container">
+                <div>+45 24 25 13 51<br>XIMI@gmail.com</div>
+                <div>Edwin Rahrs Vej 32<br>8220 Brabrand</div>
+                <div>Open Ximi Vogue Store<br>Ximiso.com</div>
+                <div>Tirsdag-Søndag<br>10:00-18:00<br>Mandag lukket</div>
+            </div>
         </footer>
     </div>
     <script src="js/rellax.min.js"></script>
@@ -105,6 +200,7 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
+
     </script>
 </body>
 
